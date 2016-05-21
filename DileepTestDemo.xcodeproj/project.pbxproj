@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E648E311B158A540054E85A /* SearchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E648E301B158A540054E85A /* SearchResultTableViewController.m */; };
+		5E648E331B1596320054E85A /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5E648E321B1596320054E85A /* dictionary.txt */; };
 		5EC30A601B1511CB009E9E53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC30A5F1B1511CB009E9E53 /* main.m */; };
 		5EC30A631B1511CB009E9E53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC30A621B1511CB009E9E53 /* AppDelegate.m */; };
 		5EC30A661B1511CB009E9E53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC30A651B1511CB009E9E53 /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E648E2F1B158A540054E85A /* SearchResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultTableViewController.h; sourceTree = "<group>"; };
+		5E648E301B158A540054E85A /* SearchResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewController.m; sourceTree = "<group>"; };
+		5E648E321B1596320054E85A /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
 		5EC30A5A1B1511CB009E9E53 /* DileepTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DileepTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC30A5E1B1511CB009E9E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC30A5F1B1511CB009E9E53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,10 +86,13 @@
 		5EC30A5C1B1511CB009E9E53 /* DileepTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5E648E321B1596320054E85A /* dictionary.txt */,
 				5EC30A611B1511CB009E9E53 /* AppDelegate.h */,
 				5EC30A621B1511CB009E9E53 /* AppDelegate.m */,
 				5EC30A641B1511CB009E9E53 /* ViewController.h */,
 				5EC30A651B1511CB009E9E53 /* ViewController.m */,
+				5E648E2F1B158A540054E85A /* SearchResultTableViewController.h */,
+				5E648E301B158A540054E85A /* SearchResultTableViewController.m */,
 				5EC30A671B1511CB009E9E53 /* Main.storyboard */,
 				5EC30A6A1B1511CB009E9E53 /* Images.xcassets */,
 				5EC30A6C1B1511CB009E9E53 /* LaunchScreen.xib */,
@@ -201,6 +209,7 @@
 			files = (
 				5EC30A691B1511CB009E9E53 /* Main.storyboard in Resources */,
 				5EC30A6E1B1511CB009E9E53 /* LaunchScreen.xib in Resources */,
+				5E648E331B1596320054E85A /* dictionary.txt in Resources */,
 				5EC30A6B1B1511CB009E9E53 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E648E311B158A540054E85A /* SearchResultTableViewController.m in Sources */,
 				5EC30A661B1511CB009E9E53 /* ViewController.m in Sources */,
 				5EC30A631B1511CB009E9E53 /* AppDelegate.m in Sources */,
 				5EC30A601B1511CB009E9E53 /* main.m in Sources */,
@@ -414,6 +424,7 @@
 				5EC30A7F1B1511CB009E9E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EC30A801B1511CB009E9E53 /* Build configuration list for PBXNativeTarget "DileepTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +433,7 @@
 				5EC30A821B1511CB009E9E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
